@@ -1,0 +1,23 @@
+// -----------------------------Footer----------------------------------
+
+footer {
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  background-color: var(--main-dark);
+  ul {
+    list-style-type: none;
+    li {
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+  }
+}

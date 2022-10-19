@@ -1,0 +1,51 @@
+main {
+  padding: 50px;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  padding: 100px 0 50px 0;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  padding-bottom: 40px;
+}
+
+form {
+  border-top: 2px solid var(--main-color);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin-top: 20px;
+}
+form input {
+  width: 300px;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin: 5px auto;
+  border: none;
+  background-color: var(--main-light);
+}
+form input[type=submit] {
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 20px;
+}
+form input[type=submit]:hover {
+  background-color: var(--main-dark);
+}
+form input[type=submit]:active {
+  background-color: var(--secondary-color);
+}/*# sourceMappingURL=signup.css.map */
