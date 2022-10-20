@@ -2,4 +2,4 @@
 
 ## This is an h2
 
-### Here is some text with **bold text**.
+Here is some text with **bold text**.
