@@ -111,10 +111,32 @@ main {
 }
 
 @keyframes carousel {
-  from {
+  0% {
     right: 0;
   }
-  to {
+  22% {
+    right: 0;
+  }
+  25% {
+    right: 100%;
+  }
+  47% {
+    right: 100%;
+  }
+  50% {
+    right: 200%;
+  }
+  72% {
+    right: 200%;
+  }
+  75% {
+    right: 300%;
+  }
+  97% {
+    right: 300%;
+  }
+
+  100% {
     right: 400%;
   }
 }
