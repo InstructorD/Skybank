@@ -18,7 +18,7 @@
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
     <link type="text/css" rel="stylesheet" href="css/header.css" />
     <link type="text/css" rel="stylesheet" href="css/footer.css" />
-    <link type="text/css" rel="stylesheet" href="css/signup.css" />
+    <link type="text/css" rel="stylesheet" href="css/contact.css" />
   </head>
   <body>
     <header>
@@ -42,17 +42,32 @@
       </nav>
     </header>
     <main>
-      <h1>Signup</h1>
-      <h2>Welcome</h2>
-      <h3>We're glad you have decided to join us.</h3>
-      <p>Fill out the form below to begin setting up your account.</p>
+      <h1>Contact</h1>
+      <h2>Questions/Concerns?</h2>
       <form action="index.html">
         <input type="text" placeholder="Full Name" />
         <input type="email" placeholder="Email" />
-        <input type="password" placeholder="Password" />
-        <input type="password" placeholder="Confirm Password" />
-        <input type="submit" />
+        <textarea placeholder="Your questions/comments"></textarea>
+        <input type="submit" value="submit" />
       </form>
+      <div class="location">
+        <div class="address">
+          <h3>Main Headquarters</h3>
+          <p>518 Crestview Drive</p>
+          <p>Beverly Hills, California, 90210</p>
+          <p>United States</p>
+          <p>555-123-4567</p>
+        </div>
+        <div class="googlemap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.8286659589953!2d-118.40560649999998!3d34.073906099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc0f4e9471c1%3A0x459fce80884fa103!2s518%20N%20Beverly%20Dr%2C%20Beverly%20Hills%2C%20CA%2090210!5e0!3m2!1sen!2sus!4v1666238787888!5m2!1sen!2sus"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
     </main>
     <footer>
       <div>
@@ -62,8 +77,8 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <ul class="user-area">
-          <li><a href="login.html">Client Login</a></li>
-          <li><a href="signup.html">Sign Up</a></li>
+          <li><a href="#">Client Login</a></li>
+          <li><a href="#">Sign Up</a></li>
         </ul>
         <ul class="user-area">
           <li><a href="#">Partners</a></li>
